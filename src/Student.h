@@ -1,10 +1,9 @@
 #ifndef Student_H
 #define Student_H
 
-
 typedef struct Student Student;
 
-struct Student{
+struct Student  {
   char *name;
   int age;
 };

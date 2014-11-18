@@ -1,5 +1,6 @@
+#include <malloc.h>
 #include "LinkedList.h"
 
-void destroyAllLinkList(LinkedList *firstList){
+void destroyAllLinkedLists(LinkedList *firstList) {
 
 }

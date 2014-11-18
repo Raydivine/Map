@@ -3,14 +3,13 @@
 
 typedef struct LinkedList LinkedList;
 
-struct LinkedList{
+struct LinkedList {
   LinkedList *next;
   void *data;
 };
 
-void addLinkedList(LinkList **listPtr, *LinkedList *newList);
-void removeLinkedList(LinkList **listPtr, *LinkedList *newList);
-void destroyAllLinkList(LinkedList *firstList);
-void findLinkedList (LinkEdList **listPtr, void *data, int(*compare)(void *dataCollection, void*data));
-
+void addLinkedList(LinkedList **listPtr, LinkedList *newList);
+void removeLinkedList(LinkedList **listPtr, LinkedList *listToRemove);
+void destroyAllLinkedLists(LinkedList *fistList);
+void findLinkedList(LinkedList **listPtr, void *data, int(*compare)(void *dataInCollection, void *data));
 #endif // LinkedList_H
