@@ -23,4 +23,5 @@ Map *destroyMap(Map *map)  {
 void addMap(Map *map, void *data, int (*hash)(void *data))  {
   int hashValue = hash(data);
   printf("hashValue is %d", hashValue);
+
 }
